@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-avia-search/static/css/main.1e88644d.css",
-    "main.js": "/react-avia-search/static/js/main.48be8b2e.js",
+    "main.js": "/react-avia-search/static/js/main.d03b7f20.js",
     "static/js/787.0b36535e.chunk.js": "/react-avia-search/static/js/787.0b36535e.chunk.js",
     "index.html": "/react-avia-search/index.html",
     "main.1e88644d.css.map": "/react-avia-search/static/css/main.1e88644d.css.map",
-    "main.48be8b2e.js.map": "/react-avia-search/static/js/main.48be8b2e.js.map",
+    "main.d03b7f20.js.map": "/react-avia-search/static/js/main.d03b7f20.js.map",
     "787.0b36535e.chunk.js.map": "/react-avia-search/static/js/787.0b36535e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e88644d.css",
-    "static/js/main.48be8b2e.js"
+    "static/js/main.d03b7f20.js"
   ]
 }
