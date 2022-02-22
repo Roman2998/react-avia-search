@@ -1,0 +1,37 @@
+.flightsTicket {
+
+}
+.city {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.date {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.transfer {
+    position: relative;
+    padding: 20px 0;
+}
+.transferNum {
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.transferAmount {
+    background: #fff;
+    color: #FFB168;
+    padding: 0 10px;
+    font-size: 1.2em;
+}
+.time{
+    font-size: 1.2em;
+}
+.hr{
+    margin: 0 40px;
+}

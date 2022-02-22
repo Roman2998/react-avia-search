@@ -1,14 +1,13 @@
-import React, {useState} from "react";
+import React from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {setValueFilterBy} from "../../Redux/reducer";
+import {setValueFilterByTransfer} from "../../Redux/reducer";
 
-const FilterBy = () => {
+const FilterByTransfer = () => {
     const dispatch = useDispatch();
-    const filterBY = useSelector(state => state.flightsPage.filterBy)
-   // const [value, setValue] = useState();
+    const filterByTransfer = useSelector(state => state.flightsPage.filterByTransfer);
 
     const changeValue = (event) => {
-       dispatch(setValueFilterBy(event.target.value));
+       dispatch(setValueFilterByTransfer(event.target.value));
     }
     return (
         <form>
@@ -16,22 +15,21 @@ const FilterBy = () => {
 
             <div>
                 <label>
-                    <input type='checkbox' value='oneFlightChange' //id='oneFlightChange'
-                           checked={filterBY === 'oneFlightChange'}
+                    <input type='checkbox' value='oneFlightChange'
+                           checked={filterByTransfer === 'oneFlightChange'}
                            onChange={changeValue}/>
                     - 1 пересадка
                 </label>
             </div>
             <div>
                 <label>
-                    <input type='checkbox' value='nonStop' //id='nonStop'
-                           checked={filterBY === 'nonStop'}
+                    <input type='checkbox' value='nonStop'
+                           checked={filterByTransfer === 'nonStop'}
                            onChange={changeValue}/>
                     - без пересадок
                 </label>
             </div>
-
         </form>
     )
 }
-export default FilterBy
+export default FilterByTransfer
